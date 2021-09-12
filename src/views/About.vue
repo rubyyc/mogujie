@@ -6,7 +6,7 @@
   </div>
 </template>
 <script>
-import { getUsers } from '@/api'
+// import { getUsers } from '@/api'
 import { onMounted, reactive, toRefs } from 'vue'
 export default {
   name: 'About',
@@ -16,10 +16,10 @@ export default {
     })
     onMounted(() => {
       console.log('onMounted')
-      getUsers().then(res => {
-        console.log(res)
-        data.list = res.data
-      })
+      // getUsers().then(res => {
+      //   console.log(res)
+      //   data.list = res.data
+      // })
     })
     return {
       ...toRefs(data)
