@@ -10,7 +10,7 @@ service.interceptors.request.use(
 
 service.interceptors.response.use(
   response => {
-    const data = { response }
+    const { data } = response
     return data
   }
 )
