@@ -1,0 +1,5 @@
+/*elements层是提取全局某些(html,img,p等)标签共有的样式*/
+html{
+  background-color: $background-color-primary;
+  color: $color-text-primary;
+}

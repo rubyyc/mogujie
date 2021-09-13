@@ -1,3 +1,7 @@
+/*
+acss层是提取公共，原子化的css，复用性高的样式属性,如border/circle
+Px大写情况下不需要转换成rem
+*/
 /* 边框
 [bor-base] {
   border: 1px solid #E5E5E5;

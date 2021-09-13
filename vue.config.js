@@ -5,6 +5,7 @@ module.exports = {
       scss: {
         prependData: `
           @import "@/style/settings/var.scss";
+          @import "@/style/tools/_sassMagic.scss";
           `
       },
       postcss: {
