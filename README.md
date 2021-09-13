@@ -55,16 +55,24 @@ module.exports = {
 
 ```
 
-## 安装 axios
+## REM响应式的方案
+
+### 安装相关包
+```
+npm install lib-flexible
+npm install postcss-plugin-px2rem -D
+```
+
+### 配置
 
 ```
-npm install axios
+# main.js
+import 'lib-flexible/flexible.js'
 ```
 
-## 安装 axios
-
 ```
-npm install axios
+# vue.config.js
+import 'lib-flexible/flexible.js'
 ```
 
 ## 安装 axios
