@@ -2,6 +2,11 @@
 module.exports = {
   css: {
     loaderOptions: {
+      scss: {
+        prependData: `
+          @import "@/style/settings/var.scss";
+          `
+      },
       postcss: {
         plugins: [
           require('postcss-plugin-px2rem')({
