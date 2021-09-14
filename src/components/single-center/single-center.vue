@@ -12,6 +12,6 @@ export default {
 
 <style lang='scss' scoped>
 @include b(c-singer-center){
-  @include grid($align-item: center)
+  @include grid($align-items: center)
 }
 </style>

@@ -24,10 +24,10 @@ export default {
 </script>
 
 <style lang='scss' scoped>
-@include b(c-box-center){
-  @include grid($align-item:center,$justify-content: center)
-}
-// @include b(c-box-center){
-//   @include box-center
+// @include b(c-box-center) {
+// 	@include grid($align-items: center, $justify-content: center);
 // }
+@include b(c-box-center){
+  @include box-center
+}
 </style>

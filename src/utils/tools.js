@@ -1,5 +1,7 @@
 const u = 'Android'
 export const isAndroid = () => {
+  console.log('isAndroid')
+  console.log('u', u)
   const isAndroid = u.indexOf('Android') > -1 || u.indexOf('Linux') > -1 // g
 
   if (isAndroid) {
@@ -11,6 +13,8 @@ export const isAndroid = () => {
 }
 
 export const isIOS = () => {
+  console.log('ios')
+  console.log('u', u)
   const isIOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/) // ios终端
   if (isIOS) {
     // 这个是ios操作系统
