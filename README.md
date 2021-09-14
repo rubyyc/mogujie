@@ -75,16 +75,14 @@ import 'lib-flexible/flexible.js'
 import 'lib-flexible/flexible.js'
 ```
 
-## 安装 axios
+## 多色图标的使用SVGICON
+
+[IconPark多色图标库](https://iconpark.oceanengine.com/home).
+
+### 安装  @icon-park/vue-next
 
 ```
-npm install axios
-```
-
-## 安装 axios
-
-```
-npm install axios
+npm install @icon-park/vue-next --save
 ```
 
 ## 安装 axios
